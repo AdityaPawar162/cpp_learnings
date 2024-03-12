@@ -18,7 +18,7 @@ using namespace std;
         }
         return product;
    }
-}
+
 
 int main()
 {
