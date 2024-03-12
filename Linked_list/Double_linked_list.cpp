@@ -47,7 +47,7 @@ void InsertAtTail(int data)
 	newNode->prev = temp;
 }
 
-void delete(int pos)
+void deleteNode(int pos)
 {
 	Node*curr,*nxt;
 	Node*temp = head;

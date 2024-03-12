@@ -1,4 +1,4 @@
-#using<iostream>
+#include <iostream>
 using namespace std;
 struct Node{
 	int data;
@@ -27,7 +27,21 @@ Node* ReversePrint(Node*p){
 	return head;
 }
 int main(){
-	Node*head = NULL;
-	head = 
+	  Node* head = NULL;
+    Insert(head, 1);
+    Insert(head, 2);
+    Insert(head, 3);
+    Insert(head, 4);
+    cout << "Original List: ";
+    Node* current = head;
+    while (current != NULL) {
+        cout << current->data << " ";
+        current = current->next;
+    }
+    cout << endl;
+    cout << "Reversed List: ";
+    head = ReversePrint(head);
+    cout << endl;
+    return 0;
 	
 }
