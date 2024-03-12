@@ -51,7 +51,7 @@ int main()
 */
 
 //Program to check whether the two words are anagram
-/*bool anagram(string s1,string s2){
+bool anagram(string s1,string s2){
 	int n1 = s1.length();
 	int n2 = s2.length();
 	//sorting the strings
@@ -71,7 +71,7 @@ int main()
 	string s2 = "sitlen";
 	cout << anagram(s1,s2);
 	return 0;
-}*/
+}
 
 
 
