@@ -1,0 +1,2 @@
+add_executable( queue_implementation_using_array queue_implementation_using_array.cpp)
+add_executable( queue_implementation_using_linkedList queue_implementation_using_linkedList.cpp)

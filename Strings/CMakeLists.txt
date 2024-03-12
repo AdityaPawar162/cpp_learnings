@@ -1,0 +1,6 @@
+add_executable(bubble_swap_string bubble_swap_string.cpp)
+add_executable(Generate_subsets Generate_subsets.cpp)
+add_executable(Power_of_two Power_of_two.cpp)
+add_executable(Find_one_extra_character_in_the_string Find_one_extra_character_in_the_string.cpp)
+add_executable(Permutation_of_strings Permutation_of_strings.cpp)
+add_executable(panagram panagram.cpp)
