@@ -30,6 +30,7 @@ void Emplace()
 template <typename Container>
 void Print(const Container &cont,const char*msg= "" )
 {
+    std::cout << "Printing container " << msg << " \n";
     for(auto a : cont)
     {
         std::cout << a << " ";

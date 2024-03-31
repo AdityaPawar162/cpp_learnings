@@ -1,5 +1,6 @@
 add_executable(array array.cpp)
 add_executable(vector_ vector.cpp)
+add_executable(vector_1 vector_print.cpp)
 add_executable(deque deque.cpp)
 add_executable(list list.cpp)
 add_executable(set set.cpp)
