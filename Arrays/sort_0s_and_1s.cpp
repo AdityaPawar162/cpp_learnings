@@ -3,7 +3,7 @@ using namespace std;
 
 void sort_0_1(vector<int>&arr)
 {
-	int i = 0,j = arr.size()-1,x=0;
+	int i = 0,j = arr.size()-1;
 	while(i < j)
 	{
 		int currentLeftElement = arr[i];

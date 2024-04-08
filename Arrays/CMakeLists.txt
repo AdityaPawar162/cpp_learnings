@@ -18,3 +18,9 @@ add_executable(swap_of_array_using_4_arguments swap_of_array_using_4_arguments.c
 add_executable(vector vector.cpp)
 add_executable(weight_sort weight_sort.cpp)
 add_executable(search_pair search_pair.cpp)
+add_executable(merge_sorted_arrays Merge_sorted_arrays.cpp)
+
+
+
+
+
