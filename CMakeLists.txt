@@ -8,6 +8,7 @@ project(MyProject)
 set(CMAKE_CXX_STANDARD 23) # Set C++ standard to 23
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Wno-deprecated") # Enable compiler warnings
 
+
 # Add subdirectory
 add_subdirectory(Arrays arrays) 
 add_subdirectory(Classes classes)
@@ -20,9 +21,5 @@ add_subdirectory(Strings strings)
 add_subdirectory(Tree tree) 
 add_subdirectory(lambdas Lambdas)  
 add_subdirectory(Stl Stl) 
-
-
-
-
-
+add_subdirectory(Concurrency concurrency) 
 
