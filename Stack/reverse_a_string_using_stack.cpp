@@ -21,7 +21,7 @@ void Reverse(char*C,int n){
 int main(){
 	char C[51];
 	cout << "The string is ";
-	gets(C);
+	cin >> C;
 //	cout << "Reverse string is";
 	Reverse(C,strlen(C));
 	cout << C;
