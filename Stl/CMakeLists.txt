@@ -17,6 +17,24 @@ add_executable(lower_and_upper_bound lower_and_upper_bound.cpp)
 add_executable(string_view string_view.cpp)
 add_executable(string_view2 string_view2.cpp)
 add_executable(music_player music_player.cpp)
+add_executable(vector_bool vector_bool.cpp)
+add_executable(forward_list forward_list.cpp)
+add_executable(string string.cpp)
+add_executable(multiset multiset.cpp)
+add_executable(multimap multimap.cpp)
+add_executable(unordered_multiset unordered_multiset.cpp)
+add_executable(unordered_multimap unordered_multimap.cpp)
+add_executable(std_stack std_stack.cpp)
+add_executable(std_queue std_queue.cpp)
+
+
+
+
+
+
+
+
+
 
 
 
