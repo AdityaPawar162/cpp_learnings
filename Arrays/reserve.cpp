@@ -6,8 +6,9 @@ int main()
 {
     constexpr size_t numberOfElements
     {
-        100'000};  std::vector<int> numbers1; auto start1 = std::chrono::high_resolution_clock::now(); for(
-            size_t i = 0; i < numberOfElements; i++ )
+        100'000};  std::vector<int> numbers1; auto start1 = std::chrono::high_resolution_clock::now(); for( size_t i
+            = 0;
+        i < numberOfElements; i++ )
         {
             numbers1.push_back( i );
         }
