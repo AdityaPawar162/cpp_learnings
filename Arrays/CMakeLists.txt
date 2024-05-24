@@ -19,6 +19,15 @@ add_executable(vector vector.cpp)
 add_executable(weight_sort weight_sort.cpp)
 add_executable(search_pair search_pair.cpp)
 add_executable(merge_sorted_arrays Merge_sorted_arrays.cpp)
+add_executable(resize resize.cpp)
+add_executable(reserve reserve.cpp)
+add_executable(allocator allocator.cpp)
+add_executable(custom_sorting custom_sorting.cpp)
+
+
+
+
+
 
 
 
