@@ -13,6 +13,15 @@ add_executable(if_constexpr if_constexpr.cpp)
 add_executable(optional optional.cpp)
 add_executable(variant variant.cpp)
 add_executable(type_safety type_safety.cpp)
+add_executable(filesystem_intro filesystem_intro.cpp)
+add_executable(ListContentsDir ListContentsDir.cpp)
+add_executable(Directory_functions Directory_functions.cpp)
+add_executable(filesystem_permissions filesystem_permissions.cpp)
+add_executable(parallel_algorithm1 parallel_algorithm1.cpp)
+target_link_libraries(parallel_algorithm1  tbb) 
+
+
+
 
 
 
