@@ -1,7 +1,7 @@
-#include<iostream>
-#include<thread>
-#include<vector>
-#include<future>
+#include <future>
+#include <iostream>
+#include <thread>
+#include <vector>
 
 static int shared_value = 0;
 
@@ -9,7 +9,7 @@ static int shared_value = 0;
 // {
 //     std::cout << "Hello from thread" << std::this_thread::get_id() << std::endl;
 //     std::cout << "Arguments passed in :" << std::endl;
-    
+
 // };
 
 // void shared_value_increment()
@@ -17,9 +17,9 @@ static int shared_value = 0;
 //     shared_value += 1;
 // }
 
-int square(int x)
+int square( int x )
 {
-    return x*x;
+    return x * x;
 }
 
 int main()
@@ -34,20 +34,18 @@ int main()
     //     threads[i].join();
     // }
 
-
-
-    std::future<int> asyncFunction = std::async(&square,12);
-    for (int i = 0; i < 10; i++)
+    std::future<int> asyncFunction = std::async( &square, 12 );
+    for( int i = 0; i < 10; i++ )
     {
-        std::cout << square(i) << std::endl;
+        std::cout << square( i ) << std::endl;
     }
-    
+
     int result = asyncFunction.get();
     std::cout << "result is: " << result << std::endl;
-    
+
     // std::thread myThread(&test, 10);
     // myThread.join();
     // std::cout << "Shared Valuew " << shared_value << std::endl;
-    
+
     return 0;
 }
