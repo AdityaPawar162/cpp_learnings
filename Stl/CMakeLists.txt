@@ -26,6 +26,17 @@ add_executable(unordered_multiset unordered_multiset.cpp)
 add_executable(unordered_multimap unordered_multimap.cpp)
 add_executable(std_stack std_stack.cpp)
 add_executable(std_queue std_queue.cpp)
+add_executable(priority_queue priority_queue.cpp)
+add_executable(std_span std_span.cpp)
+add_executable(std_partial_sort std_partial_sort.cpp)
+add_executable(std_stable_sort std_stable_sort.cpp)
+add_executable(std_nth_element std_nth_element.cpp)
+add_executable(std_anyof_allof_noneof std_anyof_allof_noneof.cpp)
+add_executable(std_issorted_ispartitioned_ispermutated std_issorted_ispartitioned_ispermutated.cpp)
+
+
+
+
 
 
 
