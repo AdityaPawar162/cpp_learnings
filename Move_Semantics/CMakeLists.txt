@@ -1,0 +1,2 @@
+add_executable(l_value_r_value L_Value_and_R_Value.cpp)
+add_executable(Rule_of_5_and_0 Rule_of_5_and_0.cpp)
