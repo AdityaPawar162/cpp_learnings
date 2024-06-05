@@ -33,8 +33,11 @@ add_executable(std_stable_sort std_stable_sort.cpp)
 add_executable(std_nth_element std_nth_element.cpp)
 add_executable(std_anyof_allof_noneof std_anyof_allof_noneof.cpp)
 add_executable(std_issorted_ispartitioned_ispermutated std_issorted_ispartitioned_ispermutated.cpp)
-
-
+add_executable(std_count_countif std_count_countif.cpp)
+add_executable(std_find_findif std_find_findif.cpp)
+add_executable(std_adjancency_list std_adjancency_list.cpp)
+add_executable(std_lexicographical_compare std_lexicographical_compare.cpp)
+add_executable(std_minmax_element std_minmax_element.cpp)
 
 
 
