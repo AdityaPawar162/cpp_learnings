@@ -23,3 +23,5 @@ add_subdirectory(lambdas Lambdas)
 add_subdirectory(Stl Stl) 
 add_subdirectory(Concurrency concurrency) 
 add_subdirectory(c++_17_core c++_17_core)
+add_subdirectory(Type_traits Type_traits)
+
