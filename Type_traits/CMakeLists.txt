@@ -1,0 +1,5 @@
+
+
+add_executable(data_type_compatability data_type_compatability.cpp)
+add_executable(algorithm_compatability algorithm_compatability.cpp)
+add_executable(strong_guarantees strong_guarantees.cpp)
