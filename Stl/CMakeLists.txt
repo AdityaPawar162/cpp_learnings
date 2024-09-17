@@ -38,6 +38,7 @@ add_executable(std_find_findif std_find_findif.cpp)
 add_executable(std_adjancency_list std_adjancency_list.cpp)
 add_executable(std_lexicographical_compare std_lexicographical_compare.cpp)
 add_executable(std_minmax_element std_minmax_element.cpp)
+add_executable(std_concept concept.cpp)
 
 
 
